@@ -215,12 +215,52 @@ img {
   background-position: left 15px center;
 }
 
+/* SITENAV */
+.sitenav-container {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.sitenav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.sitenav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.sitenav__link {
+  display: inline-block;
+  color: #7f7f7f;
+  text-align: center;
+  font-family: 'Rubik';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.sitenav__link:hover {
+  color: var(--accent-color);
+}
+
+.sitenav__link:active {
+  opacity: 0.6;
+}
+
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {
-
-}
+only screen and (min-resolution: 2dppx) {}
