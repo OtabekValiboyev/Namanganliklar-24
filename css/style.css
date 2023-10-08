@@ -1,3 +1,39 @@
+/* CUSTOM PROPS */
+:root {
+  --accent-color: #7297EF;
+  --heading-color: #000;
+}
+
+/* FONT-FACE */
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+      url('../fonts/Rubik-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+      url('../fonts/Rubik-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+      url('../fonts/Rubik-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 html {
   height: 100%;
   box-sizing: border-box;
@@ -23,9 +59,9 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1260px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
 }
