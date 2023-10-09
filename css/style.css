@@ -257,6 +257,21 @@ img {
   opacity: 0.6;
 }
 
+/* SITE-ADVERTISING */
+.advertising-container {
+  padding-bottom: 50px;
+}
+
+.advertising__link {
+  display: flex;
+}
+
+.advertising__img {
+  width: 1200px;
+  height: 128px;
+  object-fit: contain;
+}
+
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
