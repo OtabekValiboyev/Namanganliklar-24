@@ -505,8 +505,6 @@ img {
   margin-top: 49px;
 }
 
-.country-news {}
-
 .country-news__inner {
   border-radius: 15px;
   background-color: #f6f6f6;
@@ -557,9 +555,6 @@ img {
   font-weight: 400;
   line-height: normal;
 }
-
-.country-news__img {}
-
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
