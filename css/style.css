@@ -87,6 +87,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   line-height: normal;
+  cursor: pointer;
   background-color: #7296ec;
   text-decoration: none;
   transition: opacity 0.4s ease;
@@ -101,6 +102,7 @@ img {
 }
 
 .button--orange {
+  border: 0;
   font-size: 20px;
   background-color: #f78b3b;
 }
@@ -346,6 +348,42 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+
+/* NOTIFICATION */
+.notifocation {
+  padding-bottom: 60px;
+}
+
+.notification__inner {
+  width: 100%;
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 29px;
+  padding-right: 71px;
+  background-color: rgba(247, 139, 59, 0.5);
+  background-image: url(../img/notification-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.notification__heading {
+  margin: 0;
+  width: 100%;
+  max-width: 404px;
+  margin-right: auto;
+  color: var(--heading-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 
