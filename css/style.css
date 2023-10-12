@@ -446,6 +446,7 @@ img {
 }
 
 .main-news__heading {
+  display: inline-block;
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--heading-color);
@@ -453,6 +454,7 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
+  text-decoration: none;
 }
 
 .main-news__text {
@@ -666,6 +668,31 @@ img {
   height: 25px;
   object-fit: contain;
 }
+
+
+/* LIST PAGE STYLES */
+.interesting-news {
+  padding-bottom: 100px;
+}
+
+.interesting-news__container {
+  display: flex;
+}
+
+.interesting-news__left {
+  margin-right: 10px;
+}
+
+.interesting-news-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
