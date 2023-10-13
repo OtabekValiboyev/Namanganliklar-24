@@ -815,12 +815,131 @@ img {
   line-height: 22px;
 }
 
-.local-news__footer {}
 
-.local-news__footer-img {}
 
-.local-news__footer-text {}
+/* CONTACT PAGE */
+.contact-registration {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
 
+.contact-registration__container {
+  display: flex;
+}
+
+.contact-registration__form {
+  width: 100%;
+  max-width: 696px;
+  margin-right: 10px;
+}
+
+.contact-registration__heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__fields-wrapper {
+  margin-bottom: 20px;
+}
+
+.form__fields {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form__field {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form__field-flex {
+  width: calc(calc(100% - 10px) / 2);
+  margin-bottom: 0;
+}
+
+.form__field-flex:not(:last-child) {
+  margin-right: 10px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background-color: #fff;
+  color: var(--heading-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form__input-textare {
+  min-height: 180px;
+  resize: vertical;
+}
+
+.form__button {
+  align-self: flex-end;
+  padding: 17px 30px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contact-registration__info {
+  width: 100%;
+  max-width: 494px;
+  margin-top: 49px;
+}
+
+.info__list {
+  padding: 0;
+  margin: 0;
+  padding: 40px 25px;
+  border-radius: 10px;
+  background: #f6f6f6;
+  list-style: none;
+}
+
+.info__item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.info__title {
+  margin-top: 0;
+  margin-bottom: 7px;
+  color: var(--heading-color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.info__description {
+  margin: 0;
+  color: var(--heading-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
