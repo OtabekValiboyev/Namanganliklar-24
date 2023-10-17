@@ -83,6 +83,7 @@ img {
   padding: 13px 20px;
   border-radius: 10px;
   color: #fff;
+  border: 0;
   font-family: 'Rubik';
   font-size: 16px;
   font-weight: 500;
@@ -104,6 +105,12 @@ img {
 .button--orange {
   border: 0;
   font-size: 20px;
+  background-color: #f78b3b;
+}
+
+.button--large {
+  padding: 15px 40px;
+  font-size: 24px;
   background-color: #f78b3b;
 }
 
@@ -761,8 +768,6 @@ img {
   padding-bottom: 100px;
 }
 
-.additional__container {}
-
 .addetional__heaidng {
   margin-top: 0;
   margin-bottom: 20px;
@@ -939,6 +944,56 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.modal--open {
+  display: flex;
+}
+
+.modal__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 50px 169px;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.modal__heading {
+  width: 100%;
+  max-width: 512px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: var(--heading-color);
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+}
+
+.modal__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
